@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.org/lecturer"
+           xmlns:l="http://www.example.org/lecturer"
+           elementFormDefault="qualified">
+    <xs:complexType name="lecturer">
+       <xs:sequence>
+           <xs:element name="name" type="xs:string" />
+           <xs:element name="position" type="xs:string" />
+           <xs:element name="chair" type="xs:string" />
+           <xs:element name="university" type="xs:string" />
+           <xs:element name="phone" minOccurs="0" maxOccurs="3" />
+           <xs:element name="mail" type="l:email_type" minOccurs="0" maxOccurs="3" />
+       </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="email_type">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[^@]+@[^\.]+\..+" />
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

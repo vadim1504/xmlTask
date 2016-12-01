@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schedule xmlns="http://www.example.org/schedule" xmlns:ns2="http://www.example.org/lecturer">
+    <group id="it32">
+        <day name="monday">
+            <lecture sequence="1" week="above"/>
+            <lecture sequence="1" week="under"/>
+            <lecture sequence="2" week="above"/>
+            <lecture sequence="2" week="under"/>
+            <lecture sequence="3" week="above">
+                <subject>EVM</subject>
+                <type>practice</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234</ns2:phone>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2222</ns2:phone>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3335</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="under">
+                <subject>RPMY</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+        </day>
+        <day name="tuesday">
+            <lecture sequence="1" week="above">
+                <subject>BZiPPRvSAPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under">
+                <subject>BZiPPRvSAPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="above">
+                <subject>OPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>myrashko@€mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>OPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above"/>
+            <lecture sequence="3" week="under"/>
+        </day>
+        <day name="wednesday">
+            <lecture sequence="1" week="above">
+                <subject>OPR</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-305</lecture_hall>
+                <lecturer>
+                    <ns2:name>Hrabrov D.E</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">555</ns2:phone>
+                    <ns2:mail>hrabr@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under"/>
+            <lecture sequence="2" week="above">
+                <subject>KSKR</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-305</lecture_hall>
+                <lecturer>
+                    <ns2:name>Nesterenya I.G.</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>nesneren@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>RPMY</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-308</lecture_hall>
+                <lecturer>
+                    <ns2:name>Trybenok D.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">123</ns2:phone>
+                    <ns2:mail>tdn@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above">
+                <subject>VSRPP</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="under">
+                <subject>VSRPP</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+        </day>
+        <day name="thursday">
+            <lecture sequence="1" week="above">
+                <subject>BZiPPRvSAPR</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-308</lecture_hall>
+                <lecturer>
+                    <ns2:name>Velesnicki V.F.</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8834567</ns2:phone>
+                    <ns2:mail>vel@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under"/>
+            <lecture sequence="2" week="above">
+                <subject>OCOI</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Masalitina N.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9994567</ns2:phone>
+                    <ns2:mail>hh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>OCOI</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Masalitina N.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9994567</ns2:phone>
+                    <ns2:mail>hh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above"/>
+            <lecture sequence="3" week="under"/>
+        </day>
+        <day name="friday">
+            <lecture sequence="1" week="above">
+                <subject>KSKR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Komrakov V.V</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1111567</ns2:phone>
+                    <ns2:mail>vv@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under">
+                <subject>KSKR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Komrakov V.V</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1111567</ns2:phone>
+                    <ns2:mail>vv@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="above">
+                <subject>OAK</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Tokachakov V.I</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>tok@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>OAK</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Tokachakov V.I</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>tok@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above">
+                <subject>OMiMOD</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-308</lecture_hall>
+                <lecturer>
+                    <ns2:name>Nesterenya I.G.</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>nesteren@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="under">
+                <subject>OAK</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-305</lecture_hall>
+                <lecturer>
+                    <ns2:name>Trybenok D.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1237777</ns2:phone>
+                    <ns2:mail>dh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+        </day>
+    </group>
+    <group id="it31">
+        <day name="monday">
+            <lecture sequence="1" week="above">
+                <subject>OAK</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-305</lecture_hall>
+                <lecturer>
+                    <ns2:name>Trybenok D.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1237777</ns2:phone>
+                    <ns2:mail>dh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under">
+                <subject>OMiMOD</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-308</lecture_hall>
+                <lecturer>
+                    <ns2:name>Nesterenya I.G.</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>nesteren@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="above">
+                <subject>VSRPP</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-303</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>VSRPP</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-303</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above">
+                <subject>EVM</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="under">
+                <subject>RPMY</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+        </day>
+        <day name="tuesday">
+            <lecture sequence="1" week="above">
+                <subject>BZiPPRvSAPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under">
+                <subject>BZiPPRvSAPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="above">
+                <subject>OPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>OPR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Murashko I.A.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4567</ns2:phone>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">67</ns2:phone>
+                    <ns2:mail>myrashko@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above"/>
+            <lecture sequence="3" week="under"/>
+        </day>
+        <day name="wednesday">
+            <lecture sequence="1" week="above"/>
+            <lecture sequence="1" week="under"/>
+            <lecture sequence="2" week="above">
+                <subject>EVM</subject>
+                <type>laboratory</type>
+                <lecture_hall>1-527</lecture_hall>
+                <lecturer>
+                    <ns2:name>Sobolev D.V.</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>sobol@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>BZiPPRvSAPR</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-303</lecture_hall>
+                <lecturer>
+                    <ns2:name>Hrabrov D.E</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>hrab@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above">
+                <subject>VSRPP</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="under">
+                <subject>VSRPP</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Stefanovski I.L.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>igor@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+        </day>
+        <day name="thursday">
+            <lecture sequence="1" week="above"/>
+            <lecture sequence="1" week="under">
+                <subject>OCOI</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-305</lecture_hall>
+                <lecturer>
+                    <ns2:name>Masalitina N.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9994567</ns2:phone>
+                    <ns2:mail>hh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="above">
+                <subject>OCOI</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Masalitina N.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9994567</ns2:phone>
+                    <ns2:mail>hh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>OCOI</subject>
+                <type>lecture</type>
+                <lecture_hall>2-306</lecture_hall>
+                <lecturer>
+                    <ns2:name>Masalitina N.N</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9994567</ns2:phone>
+                    <ns2:mail>hh@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above"/>
+            <lecture sequence="3" week="under"/>
+        </day>
+        <day name="friday">
+            <lecture sequence="1" week="above">
+                <subject>KSKR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Komrakov V.V</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1111567</ns2:phone>
+                    <ns2:mail>vv@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="1" week="under">
+                <subject>KSKR</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Komrakov V.V</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1111567</ns2:phone>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1111</ns2:phone>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">111158887</ns2:phone>
+                    <ns2:mail>vv@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="above">
+                <subject>OAK</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Tokachakov V.I.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>tok@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="2" week="under">
+                <subject>OAK</subject>
+                <type>lecture</type>
+                <lecture_hall>2-12</lecture_hall>
+                <lecturer>
+                    <ns2:name>Tokachakov V.I.</ns2:name>
+                    <ns2:position>docent</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1234567</ns2:phone>
+                    <ns2:mail>tok@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="above">
+                <subject>OPR</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-309</lecture_hall>
+                <lecturer>
+                    <ns2:name>Hrabrov D.E</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0034567</ns2:phone>
+                    <ns2:mail>hrab@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+            <lecture sequence="3" week="under">
+                <subject>KSKR</subject>
+                <type>laboratory</type>
+                <lecture_hall>2-303</lecture_hall>
+                <lecturer>
+                    <ns2:name>Komrakova E.V</ns2:name>
+                    <ns2:position>lecturer</ns2:position>
+                    <ns2:chair>IT</ns2:chair>
+                    <ns2:university>GGTY</ns2:university>
+                    <ns2:phone xmlns:l="http://www.example.org/lecturer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1237777</ns2:phone>
+                    <ns2:mail>ev@mail.ru</ns2:mail>
+                </lecturer>
+            </lecture>
+        </day>
+    </group>
+</schedule>

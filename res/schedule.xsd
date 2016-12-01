@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/schedule" 
+	xmlns:tns="http://www.example.org/schedule"
+		   xmlns:l="http://www.example.org/lecturer"
+		   elementFormDefault="qualified">
+	<xs:import namespace="http://www.example.org/lecturer" schemaLocation="lecturer.xsd" />
+	<xs:element name="schedule" type="tns:schedule"></xs:element>
+	<xs:complexType name="schedule">
+	<xs:sequence>
+	<xs:element name="group" type="tns:group" maxOccurs="unbounded"/>
+	</xs:sequence>
+	</xs:complexType>
+		<xs:complexType name="group">
+		<xs:sequence>
+			<xs:element name="day" type="tns:day" maxOccurs="5"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" />
+	</xs:complexType>
+		<xs:complexType name="day">
+		<xs:sequence>
+			<xs:element name="lecture" type="tns:lecture" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="lecture">
+		<xs:sequence>
+			<xs:element name="subject" type="xs:string" minOccurs="0"/>
+			<xs:element name="type" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="lecture" />
+						<xs:enumeration value="laboratory" />
+						<xs:enumeration value="practice" />
+					</xs:restriction>
+				</xs:simpleType>				
+			</xs:element>
+			<xs:element name="lecture_hall" type="xs:string" minOccurs="0"/>
+            <xs:element name="lecturer" type="l:lecturer" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="sequence" type="xs:long" />
+		<xs:attribute name="week" type="xs:string" />
+	</xs:complexType>
+
+
+</xs:schema>
